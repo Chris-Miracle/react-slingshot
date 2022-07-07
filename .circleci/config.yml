@@ -31,7 +31,7 @@ jobs:
     - run: npm audit
 
 workflows:
-  front_workflow:
+  front_pipeline_workflow:
     jobs:
       - build
       - test:
